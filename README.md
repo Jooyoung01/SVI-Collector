@@ -32,7 +32,7 @@ python streetView_collector.py -k AIzaSyEXAM_PLE -csv locations.csv -proj NYC
 ```bash
 !git clone https://github.com/Jooyoung01/SVI-Collector.git
 %cd SVI-Collector
-!python script.py -k [YOUR_API_KEY] -csv [CSV FILE LOCATION] -proj [YOUR PROJECT NAME]
+!python script.py -k [YOUR_API_KEY] -csv [CSV_FILE_LOCATION] -proj [YOUR_PROJECT_NAME]
 ```
 
 ## 📌 CSV File Format for SVI-Collector
@@ -58,3 +58,12 @@ Longitude,Latitude
 - Values must be in **decimal degrees (°)**, not projected coordinates. <br>
 - Do not include additional columns unless explicitly required. <br>
 - Use a **comma (`,`) as the delimiter** (not spaces or semicolons).
+
+---
+> You can also refer to a similar project at **[https://github.com/robolyst/streetview.git](https://github.com/robolyst/streetview.git)** to explore alternative methods for obtaining SVI. Please check `SVI_Collector.ipynb` for more details! 🚀
+
+---
+### 📜 License
+
+This project is licensed under the **MIT License**.
+You can view the full license in the [`LICENSE`](LICENSE) file.
